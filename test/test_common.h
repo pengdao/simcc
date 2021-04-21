@@ -1,9 +1,9 @@
-#ifndef GOOGLE_TEST_MICRO_WRAPPER_H_
+﻿#ifndef GOOGLE_TEST_MICRO_WRAPPER_H_
 #define GOOGLE_TEST_MICRO_WRAPPER_H_
 
 #include <gtest/gtest.h>
 
-/**
+/** 
 *    How to write a unit test:
 *    Please see <code>*_test.cc</code>
 *

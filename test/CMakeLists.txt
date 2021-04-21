@@ -10,5 +10,7 @@ endif (MSVC)
 add_executable(simcc_unittest ${simcc_unittest_SRCS})
 target_link_libraries(simcc_unittest simcc_static ${DEPENDENT_LIBRARIES})
 
+add_subdirectory (test_proxy_pattern)
+add_subdirectory (test_decorator_pattern)
 include (CTest)
 add_test(NAME simcc_unittest COMMAND simcc_unittest)

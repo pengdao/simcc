@@ -81,6 +81,13 @@
     <ClInclude Include="..\simcc\timestamp.inl.h" />
     <ClInclude Include="..\simcc\utility.h" />
     <ClInclude Include="..\simcc\windows_port.h" />
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="simcc_static.rc" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{4877AA94-AD55-407F-9ED3-D4503FAB2A7F}</ProjectGuid>

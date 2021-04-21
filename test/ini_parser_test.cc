@@ -1,4 +1,4 @@
-#include "test_common.h"
+﻿#include "test_common.h"
 
 #include "simcc/ini_parser.h"
 #include "simcc/data_stream.h"
@@ -291,7 +291,7 @@ void test_ini_parser_case_senstive_7() {
         H_TEST_ASSERT(value == parser.Get(section, key, &found));
         H_TEST_ASSERT(found);
     }
-
+	
     {
 
         if (parser.case_sensitive()) {

@@ -243,5 +243,14 @@
     <ClInclude Include="..\simcc\windows_port.h">
       <Filter>inner</Filter>
     </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>inner</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="simcc_static.rc" />
   </ItemGroup>
 </Project>
