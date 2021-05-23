@@ -1,4 +1,4 @@
-
+#if 0
 #include "test_common.h"
 #include "simcc/json/json.h"
 #include <iostream>
@@ -125,7 +125,7 @@ TEST_UNIT(json_merge_test4) {
     j1.Merge(&j2, true);
     H_TEST_ASSERT(j1.GetJSONObject(key1)->Equals(*subj2));
 }
-
+#endif
 
 
 

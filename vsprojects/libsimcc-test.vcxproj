@@ -100,6 +100,7 @@
     <ClCompile Include="..\test\data_stream_test.cc">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="..\test\decorator_pattern_coffee_store_test.cc" />
     <ClCompile Include="..\test\dgram_filter_test.cc">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
     </ClCompile>
@@ -131,6 +132,7 @@
     <ClCompile Include="..\test\md5_test.cc">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="..\test\proxy_pattern_test.cc" />
     <ClCompile Include="..\test\qh_palloc_test.cc" />
     <ClCompile Include="..\test\ref_object_test.cc">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>

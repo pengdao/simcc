@@ -1,4 +1,4 @@
-
+#if 0
 #include "./test_common.h"
 #include "simcc/duration.h"
 #include "simcc/timestamp.h"
@@ -36,4 +36,4 @@ TEST_UNIT(testDuration) {
 //    std::cout << "==================> us=" << us << " ts=" << ts.UnixNano() / 1000 << "\n";
 //    H_TEST_ASSERT(ts.UnixNano() / 1000 == us);
 //}
-
+#endif

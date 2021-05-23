@@ -1,3 +1,4 @@
+#if 0
 #include "test_common.h"
 
 #include <simcc/handler_guard.h>
@@ -30,3 +31,4 @@ TEST_UNIT(HandlerGuard2_test) {
     }
     H_TEST_ASSERT(guard == 3);
 }
+#endif

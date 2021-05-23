@@ -1,3 +1,4 @@
+#if 0
 #include "test_common.h"
 
 #include <atomic>
@@ -79,3 +80,4 @@ TEST_UNIT(testRefObject) {
 //    thread_local static std::map<std::string, std::string> attr_;
 //};
 //}
+#endif

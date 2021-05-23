@@ -1,3 +1,4 @@
+#if 0
 #include "test_common.h"
 #include "simcc/json/json.h"
 #include "simcc/base64.h"
@@ -253,3 +254,4 @@ TEST_UNIT(testJSONPerformanceSerialize) {
         std::cout << ">>>>>>>>>>>>>>>> rapidjson Serialize fast!\n";
     }
 }
+#endif

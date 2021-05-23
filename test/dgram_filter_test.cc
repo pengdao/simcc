@@ -1,4 +1,4 @@
-
+#if 0
 #include "test_common.h"
 #include "simcc/misc/dgram_filter.h"
 
@@ -79,3 +79,4 @@ TEST_UNIT(testDgramFilter) {
     H_TEST_ASSERT(!filter.IsNeedFilter(package2, ip));
     H_TEST_ASSERT(filter.IsNeedFilter(package2, ip));
 }
+#endif

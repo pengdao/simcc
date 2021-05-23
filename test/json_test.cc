@@ -1,4 +1,4 @@
-
+#if 0
 #include "test_common.h"
 #include "simcc/json/json.h"
 #include "simcc/base64.h"
@@ -795,3 +795,4 @@ TEST_UNIT(testJSONDoubleSerialize) {
     std::string s = d->ToString();
     H_TEST_ASSERT(simcc::StringUtil::Contains(s, ".0"));
 }
+#endif

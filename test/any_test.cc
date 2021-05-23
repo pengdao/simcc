@@ -1,3 +1,4 @@
+#if 0
 #include "test_common.h"
 
 #include <simcc/any.h>
@@ -20,3 +21,4 @@ TEST_UNIT(testAny2) {
     std::shared_ptr<std::string> b1 = simcc::any_cast<std::shared_ptr<std::string> >(any);
     H_TEST_ASSERT(buf.get() == b1.get());
 }
+#endif

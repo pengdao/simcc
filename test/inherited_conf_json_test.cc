@@ -1,4 +1,4 @@
-
+#if 0
 #include "test_common.h"
 #include "simcc/json/json.h"
 #include "simcc/json/inherited_conf_json.h"
@@ -46,4 +46,4 @@ TEST_UNIT(inherited_conf_json_test_failed) {
     H_TEST_ASSERT(!jconf.get());
 }
 
-
+#endif

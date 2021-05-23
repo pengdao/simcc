@@ -1,3 +1,4 @@
+#if 0
 #include "test_common.h"
 
 #include <simcc/qh_palloc.h>
@@ -195,3 +196,4 @@ TEST_UNIT(qh_pool) {
     qh_pool_test_2();
     qh_pool_test_3();
 }
+#endif

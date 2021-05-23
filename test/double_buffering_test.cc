@@ -1,3 +1,4 @@
+#if 0
 #include "test_common.h"
 
 #include "simcc/misc/double_buffering.h"
@@ -106,3 +107,4 @@ TEST_UNIT(testDoubleBufferingManager) {
         }
     }
 }
+#endif

@@ -1,3 +1,4 @@
+#if 0
 #include "test_common.h"
 
 #include "simcc/misc/lru.h"
@@ -92,4 +93,4 @@ TEST_UNIT(testLRUCacheH4MemoryLRU) {
     H_TEST_ASSERT(delete_count == 5);
     H_TEST_ASSERT(deleted_value == 5);
 }
-
+#endif

@@ -1,4 +1,4 @@
-
+#if 0
 #include "test_common.h"
 #include "simcc/data_stream.h"
 #include "simcc/file_util.h"
@@ -481,4 +481,4 @@ TEST_UNIT(test_memory_data_stream_2) {
 
 H_IS_POD_TYPE(TestStruct2, true);
 
-
+#endif

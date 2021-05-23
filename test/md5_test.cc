@@ -1,4 +1,4 @@
-
+#if 0
 #include "test_common.h"
 #include "simcc/random.h"
 #include "simcc/data_stream.h"
@@ -1009,5 +1009,5 @@ TEST_UNIT(hex2dec_test)
     hex2bin_test(10);
     hex2bin_test(1024);
 }
-
+#endif
 

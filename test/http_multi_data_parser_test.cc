@@ -1,3 +1,4 @@
+#if 0
 #include "test_common.h"
 
 #include <simcc/http_data_parser.h>
@@ -297,4 +298,4 @@ TEST_UNIT(test_evqing_EmbeddedHTTPServer_ParseURI)
         H_TEST_ASSERT(uri == d[i][1]);
     }
 }
-
+#endif

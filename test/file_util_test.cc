@@ -1,4 +1,4 @@
-
+#if 0
 #include "test_common.h"
 #include "simcc/data_stream.h"
 #include "simcc/file_util.h"
@@ -82,4 +82,4 @@ TEST_UNIT(FileUtil_test_1) {
     int r = stat(path, &st);
     H_TEST_ASSERT(r == 0);
 }
-
+#endif

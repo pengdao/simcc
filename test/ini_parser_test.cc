@@ -1,4 +1,5 @@
-﻿#include "test_common.h"
+﻿#if 0
+#include "test_common.h"
 
 #include "simcc/ini_parser.h"
 #include "simcc/data_stream.h"
@@ -1678,6 +1679,6 @@ TEST_UNIT(INIParser_set_test) {
     std::string s = ini.Serialize();
     H_TEST_ASSERT(s == "a=a\nb=b\n" || s == "b=b\na=a\n");
 }
-
+#endif
 
 

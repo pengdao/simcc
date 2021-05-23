@@ -12,6 +12,9 @@
     <Filter Include="src">
       <UniqueIdentifier>{6ca2fb00-be15-47fe-9feb-f1d90072f75e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="src\pattern">
+      <UniqueIdentifier>{8b71fdb0-70af-49ca-a2cc-e5bfa02b941f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\test\time_test.cc">
@@ -85,6 +88,12 @@
     </ClCompile>
     <ClCompile Include="..\test\qh_palloc_test.cc">
       <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test\decorator_pattern_coffee_store_test.cc">
+      <Filter>src\pattern</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test\proxy_pattern_test.cc">
+      <Filter>src\pattern</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

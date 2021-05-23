@@ -1,4 +1,4 @@
-
+#if 0
 #include "test_common.h"
 
 #include "simcc/tokener.h"
@@ -98,5 +98,5 @@ TEST_UNIT(TestTokener) {
     test_token_2();
     test_token_3();
 }
-
+#endif
 

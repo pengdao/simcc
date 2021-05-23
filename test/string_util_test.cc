@@ -1,3 +1,4 @@
+#if 0
 #include "test_common.h"
 #include "simcc/string_util.h"
 
@@ -1000,7 +1001,7 @@ TEST_UNIT(TestParseSize) {
         H_TEST_ASSERT(d == t.size);
     }
 }
-
+#endif
 
 
 
